@@ -10,9 +10,17 @@
 		AC0FD67A243BCF1500354547 /* NewYorkSmall-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FD677243BCF1500354547 /* NewYorkSmall-Regular.otf */; };
 		AC0FD67B243BCF1500354547 /* NewYorkExtraLarge-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FD678243BCF1500354547 /* NewYorkExtraLarge-Regular.otf */; };
 		AC0FD67C243BCF1500354547 /* NewYorkMedium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FD679243BCF1500354547 /* NewYorkMedium-Regular.otf */; };
+		AC0FD67E243BD86400354547 /* TipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD67D243BD86400354547 /* TipCalculatorViewController.swift */; };
+		AC0FD681243BD94E00354547 /* WOWSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD680243BD94E00354547 /* WOWSLabel.swift */; };
+		AC0FD684243BDE4800354547 /* HeartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD683243BDE4800354547 /* HeartLabel.swift */; };
+		AC0FD688243BE02A00354547 /* MultiplyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD687243BE02A00354547 /* MultiplyLabel.swift */; };
+		AC0FD68A243BE15400354547 /* TipAmountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD689243BE15300354547 /* TipAmountLabel.swift */; };
+		AC0FD68C243BE35F00354547 /* WOWSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD68B243BE35F00354547 /* WOWSTextField.swift */; };
+		AC0FD68E243BE75D00354547 /* TabTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD68D243BE75D00354547 /* TabTextField.swift */; };
+		AC0FD690243BE76B00354547 /* TipTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD68F243BE76B00354547 /* TipTextField.swift */; };
+		AC0FD693243BE8FC00354547 /* TipCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FD692243BE8FC00354547 /* TipCalculatorController.swift */; };
 		AC614812243BC59B003223BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614811243BC59B003223BA /* AppDelegate.swift */; };
 		AC614814243BC59B003223BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614813243BC59B003223BA /* SceneDelegate.swift */; };
-		AC614816243BC59B003223BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614815243BC59B003223BA /* ViewController.swift */; };
 		AC614819243BC59B003223BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC614817243BC59B003223BA /* Main.storyboard */; };
 		AC61481B243BC59E003223BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC61481A243BC59E003223BA /* Assets.xcassets */; };
 		AC61481E243BC59E003223BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC61481C243BC59E003223BA /* LaunchScreen.storyboard */; };
@@ -24,10 +32,18 @@
 		AC0FD677243BCF1500354547 /* NewYorkSmall-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkSmall-Regular.otf"; sourceTree = "<group>"; };
 		AC0FD678243BCF1500354547 /* NewYorkExtraLarge-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkExtraLarge-Regular.otf"; sourceTree = "<group>"; };
 		AC0FD679243BCF1500354547 /* NewYorkMedium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkMedium-Regular.otf"; sourceTree = "<group>"; };
+		AC0FD67D243BD86400354547 /* TipCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorViewController.swift; sourceTree = "<group>"; };
+		AC0FD680243BD94E00354547 /* WOWSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWSLabel.swift; sourceTree = "<group>"; };
+		AC0FD683243BDE4800354547 /* HeartLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartLabel.swift; sourceTree = "<group>"; };
+		AC0FD687243BE02A00354547 /* MultiplyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyLabel.swift; sourceTree = "<group>"; };
+		AC0FD689243BE15300354547 /* TipAmountLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipAmountLabel.swift; sourceTree = "<group>"; };
+		AC0FD68B243BE35F00354547 /* WOWSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWSTextField.swift; sourceTree = "<group>"; };
+		AC0FD68D243BE75D00354547 /* TabTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTextField.swift; sourceTree = "<group>"; };
+		AC0FD68F243BE76B00354547 /* TipTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTextField.swift; sourceTree = "<group>"; };
+		AC0FD692243BE8FC00354547 /* TipCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorController.swift; sourceTree = "<group>"; };
 		AC61480E243BC59B003223BA /* WOWS_TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOWS_TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC614811243BC59B003223BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC614813243BC59B003223BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC614815243BC59B003223BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC614818243BC59B003223BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC61481A243BC59E003223BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC61481D243BC59E003223BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +73,34 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
+		AC0FD682243BD9EB00354547 /* CustomLabels */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FD680243BD94E00354547 /* WOWSLabel.swift */,
+				AC0FD687243BE02A00354547 /* MultiplyLabel.swift */,
+				AC0FD683243BDE4800354547 /* HeartLabel.swift */,
+				AC0FD689243BE15300354547 /* TipAmountLabel.swift */,
+			);
+			path = CustomLabels;
+			sourceTree = "<group>";
+		};
+		AC0FD691243BE84700354547 /* CustomTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FD68B243BE35F00354547 /* WOWSTextField.swift */,
+				AC0FD68D243BE75D00354547 /* TabTextField.swift */,
+				AC0FD68F243BE76B00354547 /* TipTextField.swift */,
+			);
+			path = CustomTextFields;
+			sourceTree = "<group>";
+		};
+		AC0FD694243BEB8800354547 /* Helpers + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Helpers + Extensions";
+			sourceTree = "<group>";
+		};
 		AC614805243BC59B003223BA = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +120,7 @@
 		AC614810243BC59B003223BA /* WOWS_TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				AC614828243BC7C6003223BA /* Design */,
+				AC614828243BC7C6003223BA /* CustomUI */,
 				AC614827243BC7BD003223BA /* Controllers */,
 				AC614826243BC7B3003223BA /* Storyboard */,
 				AC614825243BC5D3003223BA /* Resources */,
@@ -108,18 +152,22 @@
 		AC614827243BC7BD003223BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AC614815243BC59B003223BA /* ViewController.swift */,
+				AC0FD694243BEB8800354547 /* Helpers + Extensions */,
+				AC0FD67D243BD86400354547 /* TipCalculatorViewController.swift */,
+				AC0FD692243BE8FC00354547 /* TipCalculatorController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		AC614828243BC7C6003223BA /* Design */ = {
+		AC614828243BC7C6003223BA /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
 				AC614829243BC7DE003223BA /* StyleGuide.swift */,
 				AC61482B243BC83E003223BA /* Colors.xcassets */,
+				AC0FD691243BE84700354547 /* CustomTextFields */,
+				AC0FD682243BD9EB00354547 /* CustomLabels */,
 			);
-			path = Design;
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,10 +245,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC614816243BC59B003223BA /* ViewController.swift in Sources */,
+				AC0FD68A243BE15400354547 /* TipAmountLabel.swift in Sources */,
 				AC614812243BC59B003223BA /* AppDelegate.swift in Sources */,
+				AC0FD688243BE02A00354547 /* MultiplyLabel.swift in Sources */,
 				AC61482A243BC7DE003223BA /* StyleGuide.swift in Sources */,
+				AC0FD67E243BD86400354547 /* TipCalculatorViewController.swift in Sources */,
 				AC614814243BC59B003223BA /* SceneDelegate.swift in Sources */,
+				AC0FD68C243BE35F00354547 /* WOWSTextField.swift in Sources */,
+				AC0FD68E243BE75D00354547 /* TabTextField.swift in Sources */,
+				AC0FD681243BD94E00354547 /* WOWSLabel.swift in Sources */,
+				AC0FD690243BE76B00354547 /* TipTextField.swift in Sources */,
+				AC0FD684243BDE4800354547 /* HeartLabel.swift in Sources */,
+				AC0FD693243BE8FC00354547 /* TipCalculatorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

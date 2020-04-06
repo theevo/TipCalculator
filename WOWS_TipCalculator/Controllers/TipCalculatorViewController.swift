@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TipCalculatorViewController.swift
 //  WOWS_TipCalculator
 //
 //  Created by Theo Vora on 4/6/20.
@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TipCalculatorViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
+    
+    
+    
+    
 
 }
-

@@ -60,5 +60,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NewYorkSmall-Regular</string>
+		<string>NewYorkMedium-Regular</string>
+		<string>NewYorkExtraLarge-Regular</string>
+	</array>
 </dict>
 </plist>
