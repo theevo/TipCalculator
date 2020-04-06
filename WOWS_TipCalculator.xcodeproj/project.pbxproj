@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0FD67A243BCF1500354547 /* NewYorkSmall-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FD677243BCF1500354547 /* NewYorkSmall-Regular.otf */; };
+		AC0FD67B243BCF1500354547 /* NewYorkExtraLarge-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FD678243BCF1500354547 /* NewYorkExtraLarge-Regular.otf */; };
+		AC0FD67C243BCF1500354547 /* NewYorkMedium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0FD679243BCF1500354547 /* NewYorkMedium-Regular.otf */; };
 		AC614812243BC59B003223BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614811243BC59B003223BA /* AppDelegate.swift */; };
 		AC614814243BC59B003223BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614813243BC59B003223BA /* SceneDelegate.swift */; };
 		AC614816243BC59B003223BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614815243BC59B003223BA /* ViewController.swift */; };
 		AC614819243BC59B003223BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC614817243BC59B003223BA /* Main.storyboard */; };
 		AC61481B243BC59E003223BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC61481A243BC59E003223BA /* Assets.xcassets */; };
 		AC61481E243BC59E003223BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC61481C243BC59E003223BA /* LaunchScreen.storyboard */; };
+		AC61482A243BC7DE003223BA /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614829243BC7DE003223BA /* StyleGuide.swift */; };
+		AC61482C243BC83E003223BA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC61482B243BC83E003223BA /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0FD677243BCF1500354547 /* NewYorkSmall-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkSmall-Regular.otf"; sourceTree = "<group>"; };
+		AC0FD678243BCF1500354547 /* NewYorkExtraLarge-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkExtraLarge-Regular.otf"; sourceTree = "<group>"; };
+		AC0FD679243BCF1500354547 /* NewYorkMedium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkMedium-Regular.otf"; sourceTree = "<group>"; };
 		AC61480E243BC59B003223BA /* WOWS_TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOWS_TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC614811243BC59B003223BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC614813243BC59B003223BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		AC61481A243BC59E003223BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC61481D243BC59E003223BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC61481F243BC59E003223BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC614829243BC7DE003223BA /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		AC61482B243BC83E003223BA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0FD676243BCCF800354547 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FD678243BCF1500354547 /* NewYorkExtraLarge-Regular.otf */,
+				AC0FD679243BCF1500354547 /* NewYorkMedium-Regular.otf */,
+				AC0FD677243BCF1500354547 /* NewYorkSmall-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		AC614805243BC59B003223BA = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +76,9 @@
 		AC614810243BC59B003223BA /* WOWS_TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				AC614815243BC59B003223BA /* ViewController.swift */,
-				AC614817243BC59B003223BA /* Main.storyboard */,
+				AC614828243BC7C6003223BA /* Design */,
+				AC614827243BC7BD003223BA /* Controllers */,
+				AC614826243BC7B3003223BA /* Storyboard */,
 				AC614825243BC5D3003223BA /* Resources */,
 			);
 			path = WOWS_TipCalculator;
@@ -66,6 +87,7 @@
 		AC614825243BC5D3003223BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC0FD676243BCCF800354547 /* fonts */,
 				AC614811243BC59B003223BA /* AppDelegate.swift */,
 				AC614813243BC59B003223BA /* SceneDelegate.swift */,
 				AC61481A243BC59E003223BA /* Assets.xcassets */,
@@ -73,6 +95,31 @@
 				AC61481F243BC59E003223BA /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC614826243BC7B3003223BA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC614817243BC59B003223BA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AC614827243BC7BD003223BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC614815243BC59B003223BA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC614828243BC7C6003223BA /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				AC614829243BC7DE003223BA /* StyleGuide.swift */,
+				AC61482B243BC83E003223BA /* Colors.xcassets */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +181,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC61481E243BC59E003223BA /* LaunchScreen.storyboard in Resources */,
+				AC0FD67C243BCF1500354547 /* NewYorkMedium-Regular.otf in Resources */,
+				AC0FD67B243BCF1500354547 /* NewYorkExtraLarge-Regular.otf in Resources */,
+				AC61482C243BC83E003223BA /* Colors.xcassets in Resources */,
 				AC61481B243BC59E003223BA /* Assets.xcassets in Resources */,
 				AC614819243BC59B003223BA /* Main.storyboard in Resources */,
+				AC0FD67A243BCF1500354547 /* NewYorkSmall-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +199,7 @@
 			files = (
 				AC614816243BC59B003223BA /* ViewController.swift in Sources */,
 				AC614812243BC59B003223BA /* AppDelegate.swift in Sources */,
+				AC61482A243BC7DE003223BA /* StyleGuide.swift in Sources */,
 				AC614814243BC59B003223BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

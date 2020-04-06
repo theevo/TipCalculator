@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NewYorkExtraLarge-Regular.otf">
+            <string>NewYorkExtraLarge-Regular</string>
+        </array>
+        <array key="NewYorkMedium-Regular.otf">
+            <string>NewYorkMedium-Regular</string>
+        </array>
+        <array key="NewYorkSmall-Regular.otf">
+            <string>NewYorkSmall-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WOWS_TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpH-aa-amf">
+                                <rect key="frame" x="154" y="206" width="106" height="86"/>
+                                <fontDescription key="fontDescription" name="NewYorkExtraLarge-Regular" family="New York Extra Large" pointSize="72"/>
+                                <color key="textColor" name="WOWStipColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="nxM-jn-16D">
+                                <rect key="frame" x="90.000000000000014" y="555" width="234.33333333333337" height="68"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nEh-Xx-Q9D">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5at-Wy-SLZ">
+                                                <rect key="frame" x="48.666666666666664" y="0.0" width="31.333333333333336" height="21.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="NewYorkSmall-Regular" family="New York Small" pointSize="18"/>
+                                                <color key="textColor" name="WOWSlabelColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$100" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FH6-Lm-wEA">
+                                                <rect key="frame" x="0.0" y="29.666666666666632" width="80" height="38.333333333333343"/>
+                                                <color key="backgroundColor" name="WOWSbackgroundColor"/>
+                                                <color key="textColor" name="WOWStextFieldColor"/>
+                                                <fontDescription key="fontDescription" name="NewYorkMedium-Regular" family="New York Medium" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UI1-9R-Ing">
+                                        <rect key="frame" x="112" y="19.666666666666629" width="16.333333333333343" height="28.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="NewYorkMedium-Regular" family="New York Medium" pointSize="24"/>
+                                        <color key="textColor" name="WOWSlabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="n8e-4g-ZIL">
+                                        <rect key="frame" x="160.33333333333334" y="2.3333333333333712" width="74" height="63"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5d-v7-fte">
+                                                <rect key="frame" x="0.0" y="0.0" width="12.666666666666666" height="16.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="18"/>
+                                                <color key="textColor" name="WOWSlabelColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="18%" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xWK-cE-s4n">
+                                                <rect key="frame" x="0.0" y="24.666666666666632" width="74" height="38.333333333333343"/>
+                                                <color key="backgroundColor" name="WOWSbackgroundColor"/>
+                                                <color key="textColor" name="WOWStextFieldColor"/>
+                                                <fontDescription key="fontDescription" name="NewYorkMedium-Regular" family="New York Medium" pointSize="24"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip This" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wU0-pF-RMo">
+                                <rect key="frame" x="172" y="168.33333333333334" width="70" height="21.666666666666657"/>
+                                <fontDescription key="fontDescription" name="NewYorkSmall-Regular" family="New York Small" pointSize="18"/>
+                                <color key="textColor" name="WOWSlabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="WOWSbackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nxM-jn-16D" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.3" id="6m2-3b-WVe"/>
+                            <constraint firstItem="wU0-pF-RMo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c2v-c0-dXe"/>
+                            <constraint firstItem="wU0-pF-RMo" firstAttribute="bottom" secondItem="IpH-aa-amf" secondAttribute="top" constant="-16" id="dFW-be-W0h"/>
+                            <constraint firstItem="IpH-aa-amf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.55" id="lET-pr-tVU"/>
+                            <constraint firstItem="nxM-jn-16D" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pa7-1e-zIh"/>
+                            <constraint firstItem="IpH-aa-amf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="qDv-u9-hvf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="WOWSbackgroundColor">
+            <color red="0.33725490196078434" green="0.38823529411764707" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WOWSlabelColor">
+            <color red="0.35686274509803922" green="0.5490196078431373" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WOWStextFieldColor">
+            <color red="0.69019607843137254" green="0.63137254901960782" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WOWStipColor">
+            <color red="0.94509803921568625" green="0.83921568627450982" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
