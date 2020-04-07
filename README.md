@@ -30,7 +30,7 @@ The color scheme credit: [ColorHunt](https://colorhunt.co/palette/170419).
 It started with a quick sketch. I just tried to put 3 different ideas down on paper first. After all, paper's cheap; code's expensive. I almost skipped this step, but I'm so glad I did it. I wasn't in love with the 3rd design at first, but it ended up working so well in the end!
 
 
-![Screenshot of WOWS Tip Calculator in Sketch](images/WOWS_Sketch.png)
+![Screenshot of WOWS Tip Calculator UI in Sketch](images/WOWS_Sketch.png)
 
 One could argue that this was unnecessary given how simple the design is, but I honestly just wanted the practice of working with it, since I've never worked with it before.
 
@@ -39,3 +39,12 @@ One could argue that this was unnecessary given how simple the design is, but I 
 
 Having worked with CSS before, styling is similar but definitely more verbose in Swift. I'm still learning all the nuances, but inheritance is definitely a thing when it comes to styling things like labels, fields, and buttons in Swift, which I love.
 
+
+
+## App Icon design
+
+I preserved the color palette for the icon. I had no idea what I was doing when I started. I just started breaking things in the iOS icon template until I could see where I needed to add my own elements. Sketch really is proving itself a useful tool to iOS designers!
+
+Once the template was good to go, I searched the web for a wolf icon and decided upon a PNG that looked pretty good. Wolf Credit: https://www.cleanpng.com/png-computer-icons-gray-wolf-icon-design-clip-art-wolv-2193005/
+
+![Screenshot of WOWS Tip Calculator icon design in Sketch](images/WOWS_Icon_Sketch.png)
