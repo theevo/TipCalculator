@@ -98,6 +98,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tabAmountTextField" destination="FH6-Lm-wEA" id="GvD-ZK-k5k"/>
+                        <outlet property="tipPercentTextField" destination="xWK-cE-s4n" id="OMe-bN-cUp"/>
+                        <outlet property="tipThisAmountLabel" destination="IpH-aa-amf" id="29H-dE-IwC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
