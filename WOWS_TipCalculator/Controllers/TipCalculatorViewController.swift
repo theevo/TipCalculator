@@ -10,14 +10,23 @@ import UIKit
 
 class TipCalculatorViewController: UIViewController, UITextFieldDelegate {
     
-    // MARK: - Outlets
+    // MARK: - Views
     
-    @IBOutlet weak var tabAmountTextField: TabTextField!
-    @IBOutlet weak var tipPercentTextField: TipTextField!
-    @IBOutlet weak var tipThisAmountLabel: TipAmountLabel!
+    let tipThisAmountLabel: TipAmountLabel = {
+        let label = TipAmountLabel()
+        label.text = "Tip this"
+        return label
+    }()
+    let tabAmountTextField = TabTextField()
+    let tipPercentTextField = TipTextField()
     
     
     // MARK: - Lifecycle Methods
+    
+    override func loadView() {
+        super.loadView()
+        addAllSubViews()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,5 +79,12 @@ class TipCalculatorViewController: UIViewController, UITextFieldDelegate {
         let tabAmount = tabAmountTextField.text ?? ""
         TipCalculatorController.shared.updateWithTabAmountString(string: tabAmount)
         updateValues()
+    }
+    
+    
+    // MARK: - UI Setup
+    
+    func addAllSubViews() {
+        view.addSubview(tipThisAmountLabel)
     }
 }

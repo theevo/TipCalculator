@@ -25,6 +25,7 @@
 		AC61481E243BC59E003223BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC61481C243BC59E003223BA /* LaunchScreen.storyboard */; };
 		AC61482A243BC7DE003223BA /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614829243BC7DE003223BA /* StyleGuide.swift */; };
 		AC61482C243BC83E003223BA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC61482B243BC83E003223BA /* Colors.xcassets */; };
+		ACA5E10A243D3CD700560965 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5E109243D3CD700560965 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		AC61481F243BC59E003223BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC614829243BC7DE003223BA /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		AC61482B243BC83E003223BA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		ACA5E109243D3CD700560965 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +94,12 @@
 			path = CustomTextFields;
 			sourceTree = "<group>";
 		};
-		AC0FD694243BEB8800354547 /* Helpers + Extensions */ = {
+		AC0FD694243BEB8800354547 /* Helpers+Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				ACA5E109243D3CD700560965 /* UIViewExtension.swift */,
 			);
-			path = "Helpers + Extensions";
+			path = "Helpers+Extensions";
 			sourceTree = "<group>";
 		};
 		AC614805243BC59B003223BA = {
@@ -118,8 +121,8 @@
 		AC614810243BC59B003223BA /* WOWS_TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				AC614828243BC7C6003223BA /* CustomUI */,
 				AC614827243BC7BD003223BA /* Controllers */,
+				AC614828243BC7C6003223BA /* CustomUI */,
 				AC614826243BC7B3003223BA /* Storyboard */,
 				AC614825243BC5D3003223BA /* Resources */,
 			);
@@ -149,7 +152,7 @@
 		AC614827243BC7BD003223BA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AC0FD694243BEB8800354547 /* Helpers + Extensions */,
+				AC0FD694243BEB8800354547 /* Helpers+Extensions */,
 				AC0FD67D243BD86400354547 /* TipCalculatorViewController.swift */,
 				AC0FD692243BE8FC00354547 /* TipCalculatorController.swift */,
 			);
@@ -250,6 +253,7 @@
 				AC0FD68C243BE35F00354547 /* WOWSTextField.swift in Sources */,
 				AC0FD68E243BE75D00354547 /* TabTextField.swift in Sources */,
 				AC0FD681243BD94E00354547 /* WOWSLabel.swift in Sources */,
+				ACA5E10A243D3CD700560965 /* UIViewExtension.swift in Sources */,
 				AC0FD690243BE76B00354547 /* TipTextField.swift in Sources */,
 				AC0FD684243BDE4800354547 /* HeartLabel.swift in Sources */,
 				AC0FD693243BE8FC00354547 /* TipCalculatorController.swift in Sources */,
@@ -389,7 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B76C7733HZ;
+				DEVELOPMENT_TEAM = 6QY69PUF72;
 				INFOPLIST_FILE = WOWS_TipCalculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,7 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B76C7733HZ;
+				DEVELOPMENT_TEAM = 6QY69PUF72;
 				INFOPLIST_FILE = WOWS_TipCalculator/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
