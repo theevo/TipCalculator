@@ -28,5 +28,27 @@ class WOWS_TipCalculatorTests: XCTestCase {
         XCTAssertEqual(sut.tipDollarAmountString, "$18.00", "Starting tip dollar amount didn't start off at $18.00.")
         XCTAssertEqual(sut.tipPercentageString, "18%", "Starting tip percentage did not start off at 18%.")
     }
+    
+    func testChangeInTabAmount() {
+        // 1. given
+        let newTab = "$200.00"
+        
+        // 2. when
+        sut.updateWithTabAmountString(string: newTab)
+        
+        // 3. then
+        XCTAssertEqual(sut.tipDollarAmountString, "$36.00", "Calculation incorrect when tip is 18% and tab changed to $200.")
+    }
+    
+    func testChangeInTipPercentage() {
+        // 1. given
+        let newTip = "20%"
+        
+        // 2. when
+        sut.updateWithTipPercentString(string: newTip)
+        
+        // 3. then
+        XCTAssertEqual(sut.tipDollarAmountString, "$20.00", "Calculation incorrect when tab is $100 and tip rate changed to 20%.")
+    }
 
 }
