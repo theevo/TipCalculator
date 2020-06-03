@@ -143,8 +143,9 @@
 		AC614810243BC59B003223BA /* WOWS_TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				AC614828243BC7C6003223BA /* CustomUI */,
+				ACC21151248722E10014B8D0 /* Model */,
 				AC614827243BC7BD003223BA /* Controllers */,
+				AC614828243BC7C6003223BA /* CustomUI */,
 				AC614826243BC7B3003223BA /* Storyboard */,
 				AC614825243BC5D3003223BA /* Resources */,
 			);
@@ -200,6 +201,13 @@
 				ACC2114B2487204E0014B8D0 /* Info.plist */,
 			);
 			path = WOWS_TipCalculatorTests;
+			sourceTree = "<group>";
+		};
+		ACC21151248722E10014B8D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

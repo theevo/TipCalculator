@@ -7,27 +7,26 @@
 //
 
 import XCTest
+@testable import WOWS_TipCalculator
 
 class WOWS_TipCalculatorTests: XCTestCase {
+    
+    var sut: TipCalculatorController!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        sut = TipCalculatorController()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        super.tearDown()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testDefaultAmounts() {
+        XCTAssertEqual(sut.tabAmountString, "$100.00", "Starting tab amount did not start off at $100.00.")
+        XCTAssertEqual(sut.tipDollarAmountString, "$18.00", "Starting tip dollar amount didn't start off at $18.00.")
+        XCTAssertEqual(sut.tipPercentageString, "18%", "Starting tip percentage did not start off at 18%.")
     }
 
 }
