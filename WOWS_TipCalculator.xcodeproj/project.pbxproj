@@ -26,7 +26,18 @@
 		AC61481E243BC59E003223BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC61481C243BC59E003223BA /* LaunchScreen.storyboard */; };
 		AC61482A243BC7DE003223BA /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC614829243BC7DE003223BA /* StyleGuide.swift */; };
 		AC61482C243BC83E003223BA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC61482B243BC83E003223BA /* Colors.xcassets */; };
+		ACC2114A2487204E0014B8D0 /* WOWS_TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC211492487204E0014B8D0 /* WOWS_TipCalculatorTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC2114C2487204E0014B8D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC614806243BC59B003223BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC61480D243BC59B003223BA;
+			remoteInfo = WOWS_TipCalculator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AC0FD677243BCF1500354547 /* NewYorkSmall-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Regular.otf"; path = "../../../../../../../../../../../../../../Library/Fonts/NewYorkSmall-Regular.otf"; sourceTree = "<group>"; };
@@ -50,10 +61,20 @@
 		AC61481F243BC59E003223BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC614829243BC7DE003223BA /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		AC61482B243BC83E003223BA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		ACC211472487204D0014B8D0 /* WOWS_TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWS_TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC211492487204E0014B8D0 /* WOWS_TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWS_TipCalculatorTests.swift; sourceTree = "<group>"; };
+		ACC2114B2487204E0014B8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC61480B243BC59B003223BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC211442487204D0014B8D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -105,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				AC614810243BC59B003223BA /* WOWS_TipCalculator */,
+				ACC211482487204E0014B8D0 /* WOWS_TipCalculatorTests */,
 				AC61480F243BC59B003223BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				AC61480E243BC59B003223BA /* WOWS_TipCalculator.app */,
+				ACC211472487204D0014B8D0 /* WOWS_TipCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +193,15 @@
 			path = CustomUI;
 			sourceTree = "<group>";
 		};
+		ACC211482487204E0014B8D0 /* WOWS_TipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC211492487204E0014B8D0 /* WOWS_TipCalculatorTests.swift */,
+				ACC2114B2487204E0014B8D0 /* Info.plist */,
+			);
+			path = WOWS_TipCalculatorTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,18 +222,40 @@
 			productReference = AC61480E243BC59B003223BA /* WOWS_TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ACC211462487204D0014B8D0 /* WOWS_TipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC211502487204E0014B8D0 /* Build configuration list for PBXNativeTarget "WOWS_TipCalculatorTests" */;
+			buildPhases = (
+				ACC211432487204D0014B8D0 /* Sources */,
+				ACC211442487204D0014B8D0 /* Frameworks */,
+				ACC211452487204D0014B8D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC2114D2487204E0014B8D0 /* PBXTargetDependency */,
+			);
+			name = WOWS_TipCalculatorTests;
+			productName = WOWS_TipCalculatorTests;
+			productReference = ACC211472487204D0014B8D0 /* WOWS_TipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AC614806243BC59B003223BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Theo Vora";
 				TargetAttributes = {
 					AC61480D243BC59B003223BA = {
 						CreatedOnToolsVersion = 11.4;
+					};
+					ACC211462487204D0014B8D0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AC61480D243BC59B003223BA;
 					};
 				};
 			};
@@ -219,6 +273,7 @@
 			projectRoot = "";
 			targets = (
 				AC61480D243BC59B003223BA /* WOWS_TipCalculator */,
+				ACC211462487204D0014B8D0 /* WOWS_TipCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +290,13 @@
 				AC61481B243BC59E003223BA /* Assets.xcassets in Resources */,
 				AC614819243BC59B003223BA /* Main.storyboard in Resources */,
 				AC0FD67A243BCF1500354547 /* NewYorkSmall-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC211452487204D0014B8D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +322,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ACC211432487204D0014B8D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC2114A2487204E0014B8D0 /* WOWS_TipCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC2114D2487204E0014B8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC61480D243BC59B003223BA /* WOWS_TipCalculator */;
+			targetProxy = ACC2114C2487204E0014B8D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC614817243BC59B003223BA /* Main.storyboard */ = {
@@ -432,6 +510,48 @@
 			};
 			name = Release;
 		};
+		ACC2114E2487204E0014B8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QY69PUF72;
+				INFOPLIST_FILE = WOWS_TipCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joybending.WOWS-TipCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOWS_TipCalculator.app/WOWS_TipCalculator";
+			};
+			name = Debug;
+		};
+		ACC2114F2487204E0014B8D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QY69PUF72;
+				INFOPLIST_FILE = WOWS_TipCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joybending.WOWS-TipCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOWS_TipCalculator.app/WOWS_TipCalculator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -449,6 +569,15 @@
 			buildConfigurations = (
 				AC614823243BC59E003223BA /* Debug */,
 				AC614824243BC59E003223BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC211502487204E0014B8D0 /* Build configuration list for PBXNativeTarget "WOWS_TipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC2114E2487204E0014B8D0 /* Debug */,
+				ACC2114F2487204E0014B8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
